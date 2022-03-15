@@ -24,7 +24,7 @@ export class ClimService {
   }
 
   public toConect(): Observable<any>{
-    return this.httpClient.post<any>(this.urlApi + 'ligar', '1', this.httpOptions)
+    return this.httpClient.post<any>(this.urlApi + 'ligar', 'EU ESTOU NEVOSO', this.httpOptions)
   }
 
   public toSwitchOff(): Observable<any>{
